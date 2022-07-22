@@ -1,0 +1,41 @@
+# OOMMF OVF 2.0
+#
+# Segment count: 1
+#
+# Begin: Segment
+# Begin: Header
+#
+# Title: Oxs_TimeDriver::Magnetization
+# Desc: Oxs vector field output
+# Desc:  MIF source file: /Users/lzh/PycharmProjects/Mean_field/exchange_testing/compute-73/exchange_testing.mif
+# Desc:  Iteration: 0, State id: 12
+# Desc:  Stage: 0, Stage iteration: 0
+# Desc:  Stage simulation time: 0 s
+# Desc:  Total simulation time: 0 s
+# meshunit: m
+# meshtype: rectangular
+# xbase: 2.5000000000000001e-09
+# ybase: 2.5000000000000001e-09
+# zbase: 2.5000000000000001e-09
+# xnodes: 1
+# ynodes: 5
+# znodes: 1
+# xstepsize: 5.0000000000000001e-09
+# ystepsize: 5.0000000000000001e-09
+# zstepsize: 5.0000000000000001e-09
+# xmin: 0
+# ymin: 0
+# zmin: 0
+# xmax: 5.0000000000000001e-09
+# ymax: 2.4999999999999999e-08
+# zmax: 5.0000000000000001e-09
+# valuedim: 3
+# valuelabels: Magnetization_x Magnetization_y Magnetization_z
+# valueunits: A/m A/m A/m
+#
+# End: Header
+#
+# Begin: Data Binary 8
+@Şwƒ!ÜBË˜%EùÀ97ÓE	AşCvÍ³ÊÁÁ×Â†ÉbòÀL½áˆÉbÁ—î9M.”Á3ù@ÒàáÀç‰‰ÆXÁJa>îĞúÀ®{Ï:#şÖÀ7³¤=#şÁ‰`	nš>ñÀ8ô³>ßĞÀJh7õõ2Á?”bÅİNéÀ
+# End: Data Binary 8
+# End: Segment

@@ -5,7 +5,7 @@
 
 The 3D Bloch point stability and hysteresis simulator is implemented with Python 3. The Mean-field algorithm is used in the simulator to relax the object system to the equilibrium state. Using the simulator, two types of Bloch points could be found in the cubic B20 FeGe system with two chiralities when the temperature $T = 0\mathrm{K}$. Using the simulator, we can also simulate the hysteretic behaviour of the system. What's more, the simulator also introduces the effect of temperature on the system. The figures shown above indicate the two types of Bloch points(H-H and T-T).
 
-This project is part of Zonghui Liu's IRP of the MSc. ACSE at Imperial College London. More details about the Mean-field algorithm and the description of the simulator can be found in [Zonghui Liu's final report](https://github.com/ese-msc-2021/irp-zl1021/blob/main/reports/zl1021-final-report.pdf).
+This project is part of Zonghui Liu's IRP of the MSc. ACSE at Imperial College London. More details about the Mean-field algorithm and the description of the simulator can be found in [Zonghui Liu's final report](https://github.com/acse-zl1021/A-Three-dimensional-Bloch-Point-Stability-and-Hysteresis-Simulator/blob/main/reports/zl1021-final-report.pdf).
 
 ## Author
 
@@ -17,7 +17,7 @@ If you have any problems, please feel free to submit an issue or contact me via 
 The development version can be installed by cloning the repository:
 
 ```
-git clone https://github.com/ese-msc-2021/irp-zl1021.git
+git clone https://github.com/acse-zl1021/A-Three-dimensional-Bloch-Point-Stability-and-Hysteresis-Simulator.git
 ```
 
 ## Dependencies
@@ -36,7 +36,7 @@ git clone https://github.com/ese-msc-2021/irp-zl1021.git
 
 As the implementation of this project is based on Object-Oriented Python, the organisation of the code is given from the Unified Modeling Language diagram:
 
-![UML](https://github.com/ese-msc-2021/irp-zl1021/blob/main/figs/UML.jpeg)
+![UML](https://github.com/acse-zl1021/A-Three-dimensional-Bloch-Point-Stability-and-Hysteresis-Simulator/blob/main/figs/UML.jpeg)
 
 The next section describes the classes and functions contained in each file:
 
@@ -83,7 +83,7 @@ The next section describes the classes and functions contained in each file:
 ## Usage
 
 ### Change the material
-![disk](https://github.com/ese-msc-2021/irp-zl1021/blob/main/figs/disk.png)
+![disk](https://github.com/acse-zl1021/A-Three-dimensional-Bloch-Point-Stability-and-Hysteresis-Simulator/blob/main/figs/disk.png)
 
 The object system is shown above.
 
@@ -125,7 +125,7 @@ degree = 107
 ```
 
 ### Study the hysteretic behaviour of the system
-![Hysteresis](https://github.com/ese-msc-2021/irp-zl1021/blob/main/figs/Hysteresis.png)
+![Hysteresis](https://github.com/acse-zl1021/A-Three-dimensional-Bloch-Point-Stability-and-Hysteresis-Simulator/blob/main/figs/Hysteresis.png)
 
 In order to study the hysteretic behaviour of the system, we need to use the final magnetizations after Mean-field Driver using the last $\mu_0H$. To do that, the project provides the I/O operations from/to `.npz` files. In the `Simulator.py` file, the three lines in the `main` function should be set:
 
